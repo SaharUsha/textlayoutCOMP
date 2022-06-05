@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: 'SegoePro-Black'; /*a name to be used later*/
+    src: url('fonts/SegoePro-Black.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'SegoePro-Bold'; /*a name to be used later*/
+    src: url('fonts/SegoePro-Bold.ttf'); /*URL to font*/
+}
+
 html, body {
     padding:0;
     width:100%;
@@ -5,13 +15,15 @@ html, body {
     margin:0;
     top:0px;
     left:0px;
-    background-color:rgba(255,255,255,1);
-
+    background-color:rgba(255,255,255,0);
+    text-align: justify;
 }
 
 p {
     color:rgba(0,0,0,1);
     font-size:14px;
+    line-height: 1.0;
+    text-align: justify;
 }
 
 .header {
@@ -25,6 +37,7 @@ p {
 
 .para {
     font-stretch: condensed;
+    text-align: justify;
 }
 .main {
     position:absolute;
@@ -33,6 +46,7 @@ p {
     width:100%;
     padding:0px;
     margin:0px;
+    text-align: justify;
 }
 
 .twoColumns{
