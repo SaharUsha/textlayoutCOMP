@@ -38,6 +38,7 @@ p {
 .para {
     font-stretch: condensed;
     text-align: justify;
+    word-spacing: normal;
 }
 .main {
     position:absolute;
