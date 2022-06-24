@@ -5,7 +5,14 @@ The format is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/e
 and this project thought about adhering to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) but didn't get very far.
 
 ### [textCOMP.sahar build.24] 2022-6-22
-- added twist to Text_Tube1
+example files
+
 TO-DO:
 - [x] add sahar sketches
 
+### [init commit] 2022-6-21
+added Format page to textCOMP
+- remove unwanted chars
+- publish letter-spacing to CSS and customPars
+- publishword-spacing to CSS and customPars
+- publish line spacing to CSS and customPars
